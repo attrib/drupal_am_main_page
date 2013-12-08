@@ -1,0 +1,49 @@
+body {
+  background: #E2E4E7;
+  font-family: 'Noto Sans', sans-serif;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+section {
+  clear: both;
+}
+
+section > div {
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  color: white;
+  text-shadow: #808080 2px 2px 2px;
+  margin-bottom: 0.5em;
+}
+
+#home {
+  background: url(../images/Skyline_Frankfurt_am_Main.jpg) no-repeat 38% 68%;
+  top: 0;
+}
+
+#home > div {
+  background-color: transparent;
+  float: right;
+  position: relative;
+  top: 20%;
+  right: 10%;
+}
+
+#home > div > p {
+  color: white;
+  text-shadow: #505050 3px 3px 3px;
+  font-size: 1.5em;
+  margin: 2px;
+  text-align: right;
+}
+#gmap {
+  height: 50%;
+}
